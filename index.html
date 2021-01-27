@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Conor O'Brien</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/uikit.min.css" />
+    <link rel="stylesheet" href="static/css/portfolio.css" />
+    <link rel="stylesheet" href="static/css/font-mfizz.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script src="static/js/uikit.min.js"></script>
+    <script src="static/js/uikit-icons.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="top-banner uk-flex uk-flex-middle uk-background-cover">
+        <div class=" uk-flex-auto top-container uk-position-relative uk-margin-medium-top">
+            <div class="name-tile uk-grid-column-large uk-grid-row-large uk-child-width-1-2@s" uk-grid>
+                <div class="primary-background uk-padding-large">
+                    <h1 class="uk-heading-small white-text uk-text-center uk-text-right@s">Conor<br>O'Brien</h1>
+                </div>
+                <div class="header-text uk-padding-large uk-text-center uk-text-left@s">
+                    <h1 class="uk-margin-remove-top header-text">Welcome</h1>
+                    <p>I am a senior at Loyola University Maryland pursuing a BS in Computer Science</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section secondary-background white-text">
+        <div class="container uk-grid-collapse uk-child-width-expand@s" uk-grid>
+            <div class="uk-text-left uk-text-right@s uk-padding">
+                <img src="media/heyitsme.jpg" class="headshot">
+            </div>
+            <div class="uk-padding white-text">
+                <h1 class="uk-heading-bullet white-text">About Me</h1>
+                <p>
+                    I am from Phoenixville, PA and I study Computer Science at Loyola University Maryland. After graduating, I hope to work as a software engineer. Currently I live in Baltimore where I enjoy collecting vinyl records, playing lacrosse, and attempting to cook.
+                </p>
+                <div class="uk-grid-collapse uk-child-width-expand@s" uk-grid>
+                    <div class="white-text">
+                        <a class="uk-button uk-button-text" onclick="return copyToClipboard('#email')" uk-tooltip="Click to copy">Email</a>
+                    </div>
+                    <div>
+                        <a class="uk-button uk-button-text" href="">Github</a>
+                    </div>
+                    <div>
+                        <a class="uk-button uk-button-text" href="">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="uk-card uk-card-body">
+        <h1 class="uk-text-center">Experienced With</h1>
+        <div class="uk-text-center uk-child-width-1-2 uk-child-width-1-4@m uk-child-width-1-4@l" uk-grid>
+            <div class="uk-card uk-card-body language-icon">
+                <i class="icon-java"></i>
+            </div>
+            <div class="uk-card uk-card-body language-icon">
+                <i class="icon-python"></i>
+            </div>
+            <div class="uk-card uk-card-body language-icon">
+                <i class="icon-c"></i>
+            </div>
+            <div class="uk-card uk-card-body language-icon"><br>
+                <i class="devicon-django-line uk-text-middle"></i>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section">
+        <div class="container uk-grid-collapse uk-child-width-expand@s" uk-grid>
+            <div class="uk-text-left uk-text-right@s uk-padding">
+                <h3>Also Experienced With</h3>
+            </div>
+            <div class="uk-padding">
+                <ul class="uk-list uk-text-left">
+                    <li>HTML/CSS</li>
+                    <li>Agile Development</li>
+                    <li>Bootstrap Framework</li>
+                    <li>Git</li>
+                    <li>Development in Linux</li>
+                    <li>Mac OSX</li>
+                    <li>JUnit</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section primary-background white-text">
+        <div class="container uk-grid-collapse uk-child-width-expand@s" uk-grid>
+            <div class="uk-text-left uk-text-right@s uk-padding">
+                <h3 class="white-text">Projects</h3>
+            </div>
+            <div class="uk-padding">
+                <article class="uk-comment">
+                    <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <h4 class="uk-comment-title uk-margin-remove uk-heading-bullet white-text"><a class="uk-link-reset" href="#">Arena Tree & Landscape Specialists</a></h4>
+                            <p class="uk-text-meta">Python, Django, Redis Queue, Bootstrap, HTML/CSS, Deployed on Ubuntu VPS with Postgres</p>
+                        </div>
+                    </header>
+                    <div class="uk-comment-body">
+                        <p>
+                            A web app that I built in Django with Bootstrap as the front end with added CSS. The website has information for customers about the business, along with a dashboard for staff. The customer site is primarily static, but has a lightweight blog and contact
+                            form. The dashboard enables staff to manage jobs, schedule quotes, and log expenses.<br><br>Currently, I am working on rebuilding this from the ground up with more features while applying better
+                            practices for testing and documentation.
+                        </p>
+                    </div>
+                </article>
+                <br><br><br>
+                <article class="uk-comment">
+                    <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <h4 class="uk-comment-title uk-margin-remove uk-heading-bullet white-text"><a class="uk-link-reset" href="#">Email Marketing Tool</a></h4>
+                            <p class="uk-text-meta">Python, Django, Redis Queue, AWS SES, Bulma (CSS Framework), HTML/CSS</p>
+                        </div>
+                    </header>
+                    <div class="uk-comment-body">
+                        <p>
+                            Contracted by an marketing company (now defunct) who wanted a tool to optimize the "email blasts" their employees sent. The company wanted their employees to write email marketing blasts to potential clients, with HTML formatted messaging in the email
+                            body.
+                            <br><br> The Django powered website I created allowed the employees to compose their message and enter the list of email addresses. Addresses would then be validated and queued for AWS SES to send the message. Statistics such
+                            as deliverability percentage would be shown to employees as their blast was processed, while management could supervise the efforts of their staff and different strategies. Additionally, the site allowed recipients of emails
+                            to permanently remove themselves from any further blasts.<br><br>The company's primary motivation with the project was to avoid the costs that similar platforms charge, while having data on the performance of each message and
+                            employee.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section last-section">
+        <div class="container uk-grid-collapse uk-child-width-expand@s" uk-grid>
+            <div class="uk-text-left uk-text-right@s uk-padding">
+                <h3>Selected Relevant Course Work</h3>
+            </div>
+            <div class="uk-padding">
+                <ul class="uk-list uk-text-left">
+                    <li>Computer Networks</li>
+                    <li>Operating Systems</li>
+                    <li>Software Engineering</li>
+                    <li>Computer Systems</li>
+                    <li>OO Data Structures</li>
+                    <li>OO Software Design</li>
+                    <li>Android Development</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="uk-text-center uk-child-width-1-1 uk-child-width-1-2@m uk-child-width-1-2@l " uk-grid>
+            <div class="uk-card uk-card-body uk-text-center uk-padding-large">
+                <h3>Contact Info</h3>
+                <a href="mailto:chobrien@loyola.edu" id="email">chobrien@loyola.edu</a>
+                <br>
+                <a href="tel:6106629464">(610) 662-9464</a>
+            </div>
+            <div class="uk-card uk-card-body uk-text-center uk-padding-large">
+                <h3>Profiles</h3>
+                <a href="">LinkedIn</a>
+                <br>
+                <a href="">Github</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Borrowed from https://codepen.io/shaikmaqsood/pen/XmydxJ
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+
+            UIkit.notification({
+                message: 'Email copied',
+                status: 'success',
+                timeout: '2000'
+            })
+        }
+    </script>
+</body>
+
+</html>
